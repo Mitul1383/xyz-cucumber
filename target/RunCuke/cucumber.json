@@ -1,0 +1,840 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15230639400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify manager should add customer successfully",
+        "description": "",
+        "id": "bank-manager-add-customer-successfully;verify-manager-should-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 193700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1435210100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 648068000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click On bank manager login tab",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 378108400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on add customer tab",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465355500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter first name \"Hermoine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermoine",
+                  "offset": 20
+                }
+              ],
+              "location": "BankManagerAndCustomer.iEnterFirstName(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226151300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter last name \"Granger\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Granger",
+                  "offset": 19
+                }
+              ],
+              "location": "BankManagerAndCustomer.iEnterLastName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192973800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter postcode \"E859AC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "E859AC",
+                  "offset": 18
+                }
+              ],
+              "location": "BankManagerAndCustomer.iEnterPostcode(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 338995800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on add customer button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149199700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "System should display popup message Click on ok button on pop up",
+            "match": {
+              "location": "BankManagerAndCustomer.systemShouldDisplayPopupMessageClickOnOkButtonOnPop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "System shows customer added successfully message",
+            "match": {
+              "location": "BankManagerAndCustomer.systemShowsCustomerAddedSuccessfullyMessage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11442460100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify bank manager should open account successfully",
+        "description": "",
+        "id": "bank-manager-add-customer-successfully;verify-bank-manager-should-open-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 7918157200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5456900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1144943300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click On bank manager login tab",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on open account button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnOpenAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I select customer first name",
+            "match": {
+              "location": "BankManagerAndCustomer.iSelectCustomerFirstName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on selected currency button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnSelectedCurrencyButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I select currency as pound",
+            "match": {
+              "location": "BankManagerAndCustomer.iSelectCurrencyAsPound()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on process button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1664013900,
+              "error_message": "org.openqa.selenium.NoAlertPresentException: no such alert\n  (Session info: chrome\u003d81.0.4044.129)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UURKDTI\u0027, ip: \u0027192.168.0.23\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\Mitul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61382}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b1ca33d20e107545ad9e90f359d374f4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)\r\n\tat com.bank.cucumber.stepdefs.BankManagerAndCustomer.iCanSeeMessageAccountCreatedSuccessfully(BankManagerAndCustomer.java:94)\r\n\tat ✽.Then I can see message account created successfully(src/test/java/com/bank/resources/featurefile/bankmanagercustomer.feature:25)\r\n",
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "I can see message account created successfully",
+            "match": {
+              "location": "BankManagerAndCustomer.iCanSeeMessageAccountCreatedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12007715700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "verify customer should login and logout successfully",
+        "description": "",
+        "id": "bank-manager-add-customer-successfully;verify-customer-should-login-and-logout-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1752738900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8850000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 886986400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on customer login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnCustomerLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353790600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on to search your name",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnToSearchYourName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20065261900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/select\\[\\@id\\\u003d\\\u0027userSelect\\\u0027\\]\"}\n  (Session info: chrome\u003d81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UURKDTI\u0027, ip: \u0027192.168.0.23\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\Mitul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8552729b272d02cc571f30c1f6bb7932\n*** Element info: {Using\u003did, value\u003d//select[@id\u003d\u0027userSelect\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.bank.utility.Utility.clickOnElement(Utility.java:43)\r\n\tat com.bank.pages.CustomerPage.clickOnSelectName(CustomerPage.java:33)\r\n\tat com.bank.cucumber.stepdefs.BankManagerAndCustomer.iClickSelectName(BankManagerAndCustomer.java:111)\r\n\tat ✽.When I click select name(src/test/java/com/bank/resources/featurefile/bankmanagercustomer.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "I click select name",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickSelectName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "I click on login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "I should be login successfully and displayed logout message",
+            "match": {
+              "location": "BankManagerAndCustomer.iShouldBeLoginSuccessfullyAndDisplayedLogoutMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "I click on logout tab",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnLogoutTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "I should see displayed your name",
+            "match": {
+              "location": "BankManagerAndCustomer.iShouldSeeDisplayedYourName()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Bank manager Add customer successfully",
+    "description": "As a user  I want to visit xyz bank website",
+    "id": "bank-manager-add-customer-successfully",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/bank/resources/featurefile/bankmanagercustomer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11357761700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify customer should deposit money successfully",
+        "description": "",
+        "id": "customer-deposit-money-withdrawal-money-delete-account-functionality;verify-customer-should-deposit-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 2404305100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4607400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11175078600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on customer login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnCustomerLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216841700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search customer that is created",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iSearchCustomerThatIsCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20178365700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/select\\[\\@id\\\u003d\\\u0027userSelect\\\u0027\\]\"}\n  (Session info: chrome\u003d81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UURKDTI\u0027, ip: \u0027192.168.0.23\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\Mitul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a1750aaad076445da0572402fa28dfe1\n*** Element info: {Using\u003did, value\u003d//select[@id\u003d\u0027userSelect\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.bank.utility.Utility.clickOnElement(Utility.java:43)\r\n\tat com.bank.pages.CustomerPage.clickOnSelectName(CustomerPage.java:33)\r\n\tat com.bank.cucumber.stepdefs.CustomerDepositWithdrawDelete.iSelectSearchedCustomer(CustomerDepositWithdrawDelete.java:42)\r\n\tat ✽.And I select searched customer(src/test/java/com/bank/resources/featurefile/customerdepositwithdrawdelete.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I select searched customer",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iSelectSearchedCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on deposit button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter amount \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 16
+                }
+              ],
+              "location": "CustomerDepositWithdrawDelete.iEnterAmount(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I click on deposit button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnDepositButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I should see deposit amount successfully",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iShouldSeeDepositAmountSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11614159200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "verify customer should withdraw money successfully",
+        "description": "",
+        "id": "customer-deposit-money-withdrawal-money-delete-account-functionality;verify-customer-should-withdraw-money-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 2020315900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3240400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 896295000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on customer login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnCustomerLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1415295700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I search customer that is created",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iSearchCustomerThatIsCreated()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20089255900,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#\\/\\/select\\[\\@id\\\u003d\\\u0027userSelect\\\u0027\\]\"}\n  (Session info: chrome\u003d81.0.4044.129)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-UURKDTI\u0027, ip: \u0027192.168.0.23\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\\Users\\Mitul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 7b9b6d47d02f151c7a2182e9fae82726\n*** Element info: {Using\u003did, value\u003d//select[@id\u003d\u0027userSelect\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.bank.utility.Utility.clickOnElement(Utility.java:43)\r\n\tat com.bank.pages.CustomerPage.clickOnSelectName(CustomerPage.java:33)\r\n\tat com.bank.cucumber.stepdefs.CustomerDepositWithdrawDelete.iSelectSearchedCustomer(CustomerDepositWithdrawDelete.java:42)\r\n\tat ✽.And I select searched customer(src/test/java/com/bank/resources/featurefile/customerdepositwithdrawdelete.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "I select searched customer",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iSelectSearchedCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I click on login button",
+            "match": {
+              "location": "BankManagerAndCustomer.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I click on withdrawal button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnWithdrawalButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I enter amount \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50",
+                  "offset": 16
+                }
+              ],
+              "location": "CustomerDepositWithdrawDelete.iEnterAmount(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click on withdrawal button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnWithdrawalButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I customer should withdrawal amount successfully",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iCustomerShouldWithdrawalAmountSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11134902400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "verify bank manager should delete customer account successfully",
+        "description": "",
+        "id": "customer-deposit-money-withdrawal-money-delete-account-functionality;verify-bank-manager-should-delete-customer-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 341100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2737700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "BankManagerAndCustomer.iAmOnTheHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 747598900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on bank manager login button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnBankManagerLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445612900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on customer button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175221600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on searched customer",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnSearchedCustomer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157680300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click select name \"Hermoine\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hermoine",
+                  "offset": 21
+                }
+              ],
+              "location": "CustomerDepositWithdrawDelete.iClickSelectName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283576800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on delete customer button",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iClickOnDeleteCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35700,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should delete customer successfully",
+            "match": {
+              "location": "CustomerDepositWithdrawDelete.iShouldDeleteCustomerSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer deposit money withdrawal money delete account functionality",
+    "description": "As a user\r\nI want to visit xyz bank website",
+    "id": "customer-deposit-money-withdrawal-money-delete-account-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/bank/resources/featurefile/customerdepositwithdrawdelete.feature"
+  }
+]
